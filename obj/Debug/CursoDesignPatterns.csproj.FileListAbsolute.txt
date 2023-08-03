@@ -1,0 +1,8 @@
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\bin\Debug\CursoDesignPatterns.exe.config
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\bin\Debug\CursoDesignPatterns.exe
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\bin\Debug\CursoDesignPatterns.pdb
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.csproj.AssemblyReference.cache
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.csproj.SuggestedBindingRedirects.cache
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.exe
+C:\Users\caiod\OneDrive\Área de Trabalho\Estudos_Dev\C#\Alura\DesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.pdb
