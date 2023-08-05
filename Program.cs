@@ -10,13 +10,19 @@ namespace CursoDesignPatterns
     {
         static void Main(string[] args)
         {
-            Imposto iss = new ISS(new ICMS());
-            
-            Orcamento orcamento = new Orcamento(500);
+            Orcamento reforma = new Orcamento(500);
+            Console.WriteLine(reforma.Valor);
 
-            double valor = iss.Calcula(orcamento);
+            reforma.AplicaDescontoExtra();
+            Console.WriteLine(reforma.Valor);
 
-            Console.WriteLine(valor);
+            reforma.Aprova();
+            reforma.AplicaDescontoExtra();
+            Console.WriteLine(reforma.Valor);
+
+            reforma.Finaliza();
+
+            reforma.AplicaDescontoExtra();
 
         }
     }
