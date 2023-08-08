@@ -10,19 +10,25 @@ namespace CursoDesignPatterns
     {
         static void Main(string[] args)
         {
-            Orcamento reforma = new Orcamento(500);
-            Console.WriteLine(reforma.Valor);
+            NotaFiscalBuilder criador = new NotaFiscalBuilder();
+            criador
+                .ParaEmpresa("Caio Cavichioli de Paula Ltda")
+                .ComCnpj("10.333.303/0001-03")
+                .ComItem(new ItemDaNota("item 1", 100.0))
+                .ComItem(new ItemDaNota("item 2", 200.0))
+                .NaDataAtual()
+                .ComObservacoes("uma obs qualquer");
 
-            reforma.AplicaDescontoExtra();
-            Console.WriteLine(reforma.Valor);
+            criador.AdicionaAcao(new EnviadorDeEmail());
+            criador.AdicionaAcao(new NotaFiscalDao());
+            criador.AdicionaAcao(new EnviadorDeSms());
 
-            reforma.Aprova();
-            reforma.AplicaDescontoExtra();
-            Console.WriteLine(reforma.Valor);
+            NotaFiscal nf = criador.Constroi();
 
-            reforma.Finaliza();
+            Console.WriteLine(nf.ValorBruto);
+            Console.WriteLine(nf.Impostos);
 
-            reforma.AplicaDescontoExtra();
+            Console.ReadKey();
 
         }
     }
